@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "wrappy",
+    "wrappy_lib",
+    "wrappy_macro"
+]
+resolver = "2"

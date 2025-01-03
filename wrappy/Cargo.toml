@@ -1,0 +1,14 @@
+[package]
+name = "wrappy"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+readme = "../README.md"
+repository = ""
+description = "A crate for generating REST API wrappers."
+keywords = ["api", "wrapper"]
+categories = ["rust-patterns"]
+
+[dependencies]
+wrappy_lib = { version = "0.1.0", path = "../wrappy_lib" }
+wrappy_macro = { version = "0.1.0", path = "../wrappy_macro" }
